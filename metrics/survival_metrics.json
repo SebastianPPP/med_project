@@ -1,0 +1,18 @@
+{
+    "Cox_Proportional_Hazards": {
+        "Penalizer": 0.01,
+        "Test_C_Index": 0.6821
+    },
+    "Random_Forest_Risk": {
+        "Best_Params": {
+            "n_estimators": 200,
+            "min_samples_split": 10,
+            "max_depth": 3
+        },
+        "Test_C_Index": 0.6752
+    },
+    "Ensemble_Model": {
+        "Test_C_Index": 0.679,
+        "Description": "Averaged Standardized Risk Scores (Cox + Random Forest)"
+    }
+}

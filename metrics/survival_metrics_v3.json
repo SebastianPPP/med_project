@@ -1,0 +1,14 @@
+{
+    "Cox_Model": 0.6965,
+    "XGBoost_Survival": 0.7041,
+    "Weighted_Ensemble": 0.7041,
+    "Ensemble_Cox_Weight": 0.0,
+    "Best_XGB_Params": {
+        "objective": "survival:cox",
+        "eval_metric": "cox-nloglik",
+        "eta": 0.05,
+        "max_depth": 3,
+        "subsample": 0.8,
+        "seed": 42
+    }
+}
